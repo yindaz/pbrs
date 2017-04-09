@@ -28,7 +28,7 @@ These dependencies are all fairly easy to download and install. Alternatively, w
 ## Quick start
 1. Download modified xml and serialized file ready for rendering using Mitsuba. To get the link, please sign the agreement form on their [webpage](http://suncg.cs.princeton.edu).
 2. Download [precomputed camera views](http://pbrs.cs.princeton.edu/pbrs_release/data/camera_v2.zip).
-3. Jump to [rendering step](###Physically-based-rendering). 
+3. Jump to [rendering step](#physically-based-rendering). 
 
 ## Pipeline
 
