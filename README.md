@@ -77,7 +77,7 @@ This command generates a `main.serialized` encoding the geometry and texture, an
 
 To download the whole scene obj models or modified serialized files, please get access to SUNCG dataset first.
 
-###Physically-based-rendering
+### Physically-based-rendering
 The images can be rendered by:
 ```
 python mitsuba_render.py -s ./planner5d/projects_serialized/[project_id]/main_template_color.xml -c ./projects_camera/[project_id]/room_camera.txt -o ./projects_render/[project_id]/ -g ./projects_camera/[project_id]/room_camera_good.txt
