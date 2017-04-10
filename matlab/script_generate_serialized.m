@@ -19,7 +19,7 @@ fprintf('%d load, %d valid\n', length(valid), sum(~valid));
 
 %%
 dependency = 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH';
-number_job = 5;
+number_job = 1;
 command_path = [script_path 'cmd_generate_serialized/'];
 if ~exist(command_path, 'dir')
     mkdir(command_path);

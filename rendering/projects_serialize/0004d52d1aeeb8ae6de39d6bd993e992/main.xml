@@ -1,0 +1,1924 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+	Automatically converted from Wavefront OBJ
+
+-->
+
+<scene version="0.5.0">
+	<integrator id="integrator" type="direct"/>
+
+	<bsdf id="material_0_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="laminate_1_2.jpg">
+			<string name="filename" value="textures/laminate_1_2.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_1_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wallp_0.jpg">
+			<string name="filename" value="textures/wallp_0.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_2_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_3_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="bricks_1.jpg">
+			<string name="filename" value="textures/bricks_1.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_4_material" type="diffuse">
+		<ref name="reflectance" id="wallp_0.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_5_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_6_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_7_material" type="diffuse">
+		<ref name="reflectance" id="wallp_0.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_8_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_9_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_10_material" type="diffuse">
+		<ref name="reflectance" id="wallp_0.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_11_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_12_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_13_material" type="diffuse">
+		<rgb name="reflectance" value="0.278431 0.278431 0.278431"/>
+	</bsdf>
+
+	<bsdf id="material_14_material" type="diffuse">
+		<rgb name="reflectance" value="0.556863 0.556863 0.556863"/>
+	</bsdf>
+
+	<bsdf id="material_15_material" type="diffuse">
+		<rgb name="reflectance" value="0.556863 0.556863 0.556863"/>
+	</bsdf>
+
+	<bsdf id="material_16_material" type="diffuse">
+		<rgb name="reflectance" value="0.278431 0.278431 0.278431"/>
+	</bsdf>
+
+	<bsdf id="material_17_material" type="diffuse">
+		<rgb name="reflectance" value="0.556863 0.556863 0.556863"/>
+	</bsdf>
+
+	<bsdf id="material_18_material" type="diffuse">
+		<rgb name="reflectance" value="0.278431 0.278431 0.278431"/>
+	</bsdf>
+
+	<bsdf id="material_19_material" type="diffuse">
+		<rgb name="reflectance" value="0.639216 0.639216 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_20_material" type="diffuse">
+		<rgb name="reflectance" value="0.25098 0.25098 0.25098"/>
+	</bsdf>
+
+	<bsdf id="material_21_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_8.jpg">
+			<string name="filename" value="textures/wood_8.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_22_material" type="diffuse">
+		<rgb name="reflectance" value="0.8 0.8 0.8"/>
+	</bsdf>
+
+	<bsdf id="material_23_material" type="diffuse">
+		<rgb name="reflectance" value="0.25098 0.25098 0.25098"/>
+	</bsdf>
+
+	<bsdf id="material_24_material" type="diffuse">
+		<rgb name="reflectance" value="0.278431 0.278431 0.278431"/>
+	</bsdf>
+
+	<bsdf id="material_25_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_5.jpg">
+			<string name="filename" value="textures/wood_5.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_26_material" type="diffuse">
+		<ref name="reflectance" id="wood_8.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_27_material" type="diffuse">
+		<rgb name="reflectance" value="0.278431 0.278431 0.278431"/>
+	</bsdf>
+
+	<bsdf id="material_28_material" type="diffuse">
+		<ref name="reflectance" id="wood_5.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_29_material" type="diffuse">
+		<ref name="reflectance" id="wood_8.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_30_material" type="diffuse">
+		<rgb name="reflectance" value="0.356863 0.356863 0.356863"/>
+	</bsdf>
+
+	<bsdf id="material_31_material" type="diffuse">
+		<rgb name="reflectance" value="0.458824 0.623529 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_32_material" type="diffuse">
+		<ref name="reflectance" id="wood_5.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_33_material" type="diffuse">
+		<ref name="reflectance" id="laminate_1_2.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_34_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="linen_1_4.jpg">
+			<string name="filename" value="textures/linen_1_4.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_35_material" type="diffuse">
+		<ref name="reflectance" id="wallp_0.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_36_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_37_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_38_material" type="diffuse">
+		<ref name="reflectance" id="wallp_0.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_39_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_40_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_41_material" type="diffuse">
+		<ref name="reflectance" id="wallp_0.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_42_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_43_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_44_material" type="diffuse">
+		<ref name="reflectance" id="wallp_0.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_45_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_46_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_47_material" type="diffuse">
+		<ref name="reflectance" id="wallp_0.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_48_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_49_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_50_material" type="diffuse">
+		<ref name="reflectance" id="wallp_0.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_51_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_52_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_53_material" type="diffuse">
+		<rgb name="reflectance" value="0.639216 0.639216 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_54_material" type="diffuse">
+		<rgb name="reflectance" value="0.411765 0.564706 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_55_material" type="diffuse">
+		<rgb name="reflectance" value="0.639216 0.639216 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_56_material" type="diffuse">
+		<rgb name="reflectance" value="0.411765 0.564706 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_57_material" type="diffuse">
+		<rgb name="reflectance" value="0.584314 0.529412 0.211765"/>
+	</bsdf>
+
+	<bsdf id="material_58_material" type="diffuse">
+		<ref name="reflectance" id="wood_8.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_59_material" type="diffuse">
+		<rgb name="reflectance" value="0.517647 0.517647 0.517647"/>
+	</bsdf>
+
+	<bsdf id="material_60_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_7.jpg">
+			<string name="filename" value="textures/wood_7.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_61_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="textile_2_3.jpg">
+			<string name="filename" value="textures/textile_2_3.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_62_material" type="diffuse">
+		<ref name="reflectance" id="wood_7.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_63_material" type="diffuse">
+		<ref name="reflectance" id="textile_2_3.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_64_material" type="diffuse">
+		<rgb name="reflectance" value="0.584314 0.529412 0.211765"/>
+	</bsdf>
+
+	<bsdf id="material_65_material" type="diffuse">
+		<ref name="reflectance" id="wood_8.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_66_material" type="diffuse">
+		<rgb name="reflectance" value="0.517647 0.517647 0.517647"/>
+	</bsdf>
+
+	<bsdf id="material_67_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_9.jpg">
+			<string name="filename" value="textures/wood_9.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_68_material" type="diffuse">
+		<rgb name="reflectance" value="0.356863 0.356863 0.356863"/>
+	</bsdf>
+
+	<bsdf id="material_69_material" type="diffuse">
+		<rgb name="reflectance" value="0.00784314 0.00784314 0.00784314"/>
+	</bsdf>
+
+	<bsdf id="material_70_material" type="diffuse">
+		<rgb name="reflectance" value="0.454902 0.596078 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_71_material" type="diffuse">
+		<rgb name="reflectance" value="0.356863 0.356863 0.356863"/>
+	</bsdf>
+
+	<bsdf id="material_72_material" type="diffuse">
+		<rgb name="reflectance" value="0.00784314 0.00784314 0.00784314"/>
+	</bsdf>
+
+	<bsdf id="material_73_material" type="diffuse">
+		<rgb name="reflectance" value="0.454902 0.596078 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_74_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="textile_1_5.jpg">
+			<string name="filename" value="textures/textile_1_5.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_75_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_15_1.jpg">
+			<string name="filename" value="textures/wood_15_1.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_76_material" type="diffuse">
+		<ref name="reflectance" id="textile_1_5.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_77_material" type="diffuse">
+		<ref name="reflectance" id="wood_15_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_78_material" type="diffuse">
+		<ref name="reflectance" id="textile_1_5.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_79_material" type="diffuse">
+		<ref name="reflectance" id="wood_15_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_80_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="textile_12_1.jpg">
+			<string name="filename" value="textures/textile_12_1.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_81_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_6.jpg">
+			<string name="filename" value="textures/wood_6.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_82_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="textile_3_2.jpg">
+			<string name="filename" value="textures/textile_3_2.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_83_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="textile_3_5.jpg">
+			<string name="filename" value="textures/textile_3_5.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_84_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_3.jpg">
+			<string name="filename" value="textures/wood_3.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_85_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="textile_3_6.jpg">
+			<string name="filename" value="textures/textile_3_6.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_86_material" type="diffuse">
+		<ref name="reflectance" id="textile_3_2.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_87_material" type="diffuse">
+		<ref name="reflectance" id="textile_3_5.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_88_material" type="diffuse">
+		<ref name="reflectance" id="wood_3.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_89_material" type="diffuse">
+		<ref name="reflectance" id="textile_3_6.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_90_material" type="diffuse">
+		<rgb name="reflectance" value="0.0117647 0.0117647 0.0117647"/>
+	</bsdf>
+
+	<bsdf id="material_91_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_15_2.jpg">
+			<string name="filename" value="textures/wood_15_2.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_92_material" type="diffuse">
+		<rgb name="reflectance" value="0.584314 0.529412 0.211765"/>
+	</bsdf>
+
+	<bsdf id="material_93_material" type="diffuse">
+		<ref name="reflectance" id="wood_8.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_94_material" type="diffuse">
+		<rgb name="reflectance" value="0.517647 0.517647 0.517647"/>
+	</bsdf>
+
+	<bsdf id="material_95_material" type="diffuse">
+		<rgb name="reflectance" value="0.00784314 0.0117647 0.0117647"/>
+	</bsdf>
+
+	<bsdf id="material_96_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_4.jpg">
+			<string name="filename" value="textures/wood_4.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_97_material" type="diffuse">
+		<ref name="reflectance" id="laminate_1_2.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_98_material" type="diffuse">
+		<ref name="reflectance" id="linen_1_4.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_99_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wallp_1_1.jpg">
+			<string name="filename" value="textures/wallp_1_1.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_100_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_101_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_102_material" type="diffuse">
+		<ref name="reflectance" id="wallp_1_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_103_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_104_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_105_material" type="diffuse">
+		<ref name="reflectance" id="wallp_1_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_106_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_107_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_108_material" type="diffuse">
+		<ref name="reflectance" id="wallp_1_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_109_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_110_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_111_material" type="diffuse">
+		<rgb name="reflectance" value="0.639216 0.639216 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_112_material" type="diffuse">
+		<rgb name="reflectance" value="0.411765 0.564706 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_113_material" type="diffuse">
+		<rgb name="reflectance" value="0.639216 0.639216 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_114_material" type="diffuse">
+		<rgb name="reflectance" value="0.411765 0.564706 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_115_material" type="diffuse">
+		<ref name="reflectance" id="wood_3.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_116_material" type="diffuse">
+		<rgb name="reflectance" value="0.6 0.72549 0.8"/>
+	</bsdf>
+
+	<bsdf id="material_117_material" type="diffuse">
+		<rgb name="reflectance" value="0.411765 0.411765 0.411765"/>
+	</bsdf>
+
+	<bsdf id="material_118_material" type="diffuse">
+		<rgb name="reflectance" value="0.584314 0.529412 0.211765"/>
+	</bsdf>
+
+	<bsdf id="material_119_material" type="diffuse">
+		<ref name="reflectance" id="wood_8.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_120_material" type="diffuse">
+		<rgb name="reflectance" value="0.517647 0.517647 0.517647"/>
+	</bsdf>
+
+	<bsdf id="material_121_material" type="diffuse">
+		<ref name="reflectance" id="wood_4.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_122_material" type="diffuse">
+		<ref name="reflectance" id="wood_3.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_123_material" type="diffuse">
+		<rgb name="reflectance" value="0.356863 0.356863 0.356863"/>
+	</bsdf>
+
+	<bsdf id="material_124_material" type="diffuse">
+		<rgb name="reflectance" value="0.356863 0.356863 0.356863"/>
+	</bsdf>
+
+	<bsdf id="material_125_material" type="diffuse">
+		<ref name="reflectance" id="wood_9.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_126_material" type="diffuse">
+		<rgb name="reflectance" value="0.45098 0.588235 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_127_material" type="diffuse">
+		<ref name="reflectance" id="wood_9.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_128_material" type="diffuse">
+		<ref name="reflectance" id="wood_9.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_129_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="textile_1_6.jpg">
+			<string name="filename" value="textures/textile_1_6.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_130_material" type="diffuse">
+		<ref name="reflectance" id="textile_3_5.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_131_material" type="diffuse">
+		<ref name="reflectance" id="wood_7.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_132_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="leather_2_4.jpg">
+			<string name="filename" value="textures/leather_2_4.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_133_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="textile_1_8.jpg">
+			<string name="filename" value="textures/textile_1_8.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_134_material" type="diffuse">
+		<rgb name="reflectance" value="0.639216 0.639216 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_135_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="wood_14_5.jpg">
+			<string name="filename" value="textures/wood_14_5.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_136_material" type="diffuse">
+		<ref name="reflectance" id="wood_3.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_137_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="leather_3_4.jpg">
+			<string name="filename" value="textures/leather_3_4.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_138_material" type="diffuse">
+		<ref name="reflectance" id="laminate_1_2.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_139_material" type="diffuse">
+		<ref name="reflectance" id="linen_1_4.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_140_material" type="diffuse">
+		<ref name="reflectance" id="wallp_1_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_141_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_142_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_143_material" type="diffuse">
+		<ref name="reflectance" id="wallp_1_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_144_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_145_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_146_material" type="diffuse">
+		<ref name="reflectance" id="wallp_1_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_147_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_148_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_149_material" type="diffuse">
+		<ref name="reflectance" id="wallp_1_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_150_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_151_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_152_material" type="diffuse">
+		<ref name="reflectance" id="wallp_1_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_153_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_154_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_155_material" type="diffuse">
+		<ref name="reflectance" id="wallp_1_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_156_material" type="diffuse">
+		<rgb name="reflectance" value="0.501961 0.501961 0.501961"/>
+	</bsdf>
+
+	<bsdf id="material_157_material" type="diffuse">
+		<ref name="reflectance" id="bricks_1.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_158_material" type="diffuse">
+		<rgb name="reflectance" value="0.411765 0.564706 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_159_material" type="diffuse">
+		<rgb name="reflectance" value="0.639216 0.639216 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_160_material" type="diffuse">
+		<rgb name="reflectance" value="0.639216 0.639216 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_161_material" type="diffuse">
+		<rgb name="reflectance" value="0.411765 0.564706 0.639216"/>
+	</bsdf>
+
+	<bsdf id="material_162_material" type="diffuse">
+		<rgb name="reflectance" value="0.584314 0.529412 0.211765"/>
+	</bsdf>
+
+	<bsdf id="material_163_material" type="diffuse">
+		<ref name="reflectance" id="wood_8.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_164_material" type="diffuse">
+		<rgb name="reflectance" value="0.517647 0.517647 0.517647"/>
+	</bsdf>
+
+	<bsdf id="material_165_material" type="diffuse">
+		<texture name="reflectance" type="bitmap" id="stone_4.jpg">
+			<string name="filename" value="textures/stone_4.jpg"/>
+		</texture>
+	</bsdf>
+
+	<bsdf id="material_166_material" type="diffuse">
+		<ref name="reflectance" id="stone_4.jpg"/>
+	</bsdf>
+
+	<bsdf id="material_167_material" type="diffuse">
+		<rgb name="reflectance" value="0.392157 0.411765 0.431373"/>
+	</bsdf>
+
+	<bsdf id="material_168_material" type="diffuse">
+		<rgb name="reflectance" value="0.462745 0.619608 0.701961"/>
+	</bsdf>
+
+	<bsdf id="material_169_material" type="diffuse">
+		<rgb name="reflectance" value="0.8 0.8 0.8"/>
+	</bsdf>
+
+	<bsdf id="material_170_material" type="diffuse">
+		<rgb name="reflectance" value="0.6 0.6 0.6"/>
+	</bsdf>
+
+	<bsdf id="material_171_material" type="diffuse">
+		<rgb name="reflectance" value="0 0.298039 0.6"/>
+	</bsdf>
+
+	<bsdf id="material_172_material" type="diffuse">
+		<rgb name="reflectance" value="0.6 0.6 0.6"/>
+	</bsdf>
+
+	<bsdf id="material_173_material" type="diffuse">
+		<rgb name="reflectance" value="0.647059 0.647059 0.647059"/>
+	</bsdf>
+
+	<shape id="Room#0_0_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="0"/>
+		<ref name="bsdf" id="material_0_material"/>
+	</shape>
+
+	<shape id="Wall#0_0_0_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="1"/>
+		<ref name="bsdf" id="material_1_material"/>
+	</shape>
+
+	<shape id="main_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="2"/>
+		<ref name="bsdf" id="material_2_material"/>
+	</shape>
+
+	<shape id="main_3_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="3"/>
+		<ref name="bsdf" id="material_3_material"/>
+	</shape>
+
+	<shape id="main_4_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="4"/>
+		<ref name="bsdf" id="material_2_material"/>
+	</shape>
+
+	<shape id="Wall#0_0_1_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="5"/>
+		<ref name="bsdf" id="material_4_material"/>
+	</shape>
+
+	<shape id="main_6_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="6"/>
+		<ref name="bsdf" id="material_5_material"/>
+	</shape>
+
+	<shape id="main_7_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="7"/>
+		<ref name="bsdf" id="material_6_material"/>
+	</shape>
+
+	<shape id="main_8_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="8"/>
+		<ref name="bsdf" id="material_5_material"/>
+	</shape>
+
+	<shape id="Wall#0_0_2_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="9"/>
+		<ref name="bsdf" id="material_7_material"/>
+	</shape>
+
+	<shape id="main_10_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="10"/>
+		<ref name="bsdf" id="material_8_material"/>
+	</shape>
+
+	<shape id="main_11_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="11"/>
+		<ref name="bsdf" id="material_9_material"/>
+	</shape>
+
+	<shape id="main_12_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="12"/>
+		<ref name="bsdf" id="material_8_material"/>
+	</shape>
+
+	<shape id="Wall#0_0_3_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="13"/>
+		<ref name="bsdf" id="material_10_material"/>
+	</shape>
+
+	<shape id="main_14_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="14"/>
+		<ref name="bsdf" id="material_11_material"/>
+	</shape>
+
+	<shape id="main_15_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="15"/>
+		<ref name="bsdf" id="material_12_material"/>
+	</shape>
+
+	<shape id="main_16_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="16"/>
+		<ref name="bsdf" id="material_11_material"/>
+	</shape>
+
+	<shape id="Model#83_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="17"/>
+		<ref name="bsdf" id="material_13_material"/>
+	</shape>
+
+	<shape id="main_18_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="18"/>
+		<ref name="bsdf" id="material_14_material"/>
+	</shape>
+
+	<shape id="main_19_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="19"/>
+		<ref name="bsdf" id="material_15_material"/>
+	</shape>
+
+	<shape id="Model#150_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="20"/>
+		<ref name="bsdf" id="material_16_material"/>
+	</shape>
+
+	<shape id="main_21_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="21"/>
+		<ref name="bsdf" id="material_17_material"/>
+	</shape>
+
+	<shape id="Model#81_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="22"/>
+		<ref name="bsdf" id="material_18_material"/>
+	</shape>
+
+	<shape id="main_23_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="23"/>
+		<ref name="bsdf" id="material_19_material"/>
+	</shape>
+
+	<shape id="Model#87_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="24"/>
+		<ref name="bsdf" id="material_20_material"/>
+	</shape>
+
+	<shape id="main_25_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="25"/>
+		<ref name="bsdf" id="material_21_material"/>
+	</shape>
+
+	<shape id="main_26_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="26"/>
+		<ref name="bsdf" id="material_22_material"/>
+	</shape>
+
+	<shape id="main_27_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="27"/>
+		<ref name="bsdf" id="material_23_material"/>
+	</shape>
+
+	<shape id="Model#317_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="28"/>
+		<ref name="bsdf" id="material_24_material"/>
+	</shape>
+
+	<shape id="main_29_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="29"/>
+		<ref name="bsdf" id="material_25_material"/>
+	</shape>
+
+	<shape id="main_30_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="30"/>
+		<ref name="bsdf" id="material_26_material"/>
+	</shape>
+
+	<shape id="Model#317_31_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="31"/>
+		<ref name="bsdf" id="material_27_material"/>
+	</shape>
+
+	<shape id="main_32_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="32"/>
+		<ref name="bsdf" id="material_28_material"/>
+	</shape>
+
+	<shape id="main_33_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="33"/>
+		<ref name="bsdf" id="material_29_material"/>
+	</shape>
+
+	<shape id="Model#499_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="34"/>
+		<ref name="bsdf" id="material_30_material"/>
+	</shape>
+
+	<shape id="Model#144_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="35"/>
+		<ref name="bsdf" id="material_31_material"/>
+	</shape>
+
+	<shape id="main_36_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="36"/>
+		<ref name="bsdf" id="material_32_material"/>
+	</shape>
+
+	<shape id="Room#0_1_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="37"/>
+		<ref name="bsdf" id="material_33_material"/>
+	</shape>
+
+	<shape id="main_38_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="38"/>
+		<ref name="bsdf" id="material_34_material"/>
+	</shape>
+
+	<shape id="Wall#0_1_0_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="39"/>
+		<ref name="bsdf" id="material_35_material"/>
+	</shape>
+
+	<shape id="main_40_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="40"/>
+		<ref name="bsdf" id="material_36_material"/>
+	</shape>
+
+	<shape id="main_41_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="41"/>
+		<ref name="bsdf" id="material_37_material"/>
+	</shape>
+
+	<shape id="main_42_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="42"/>
+		<ref name="bsdf" id="material_36_material"/>
+	</shape>
+
+	<shape id="Wall#0_1_1_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="43"/>
+		<ref name="bsdf" id="material_38_material"/>
+	</shape>
+
+	<shape id="main_44_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="44"/>
+		<ref name="bsdf" id="material_39_material"/>
+	</shape>
+
+	<shape id="main_45_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="45"/>
+		<ref name="bsdf" id="material_40_material"/>
+	</shape>
+
+	<shape id="main_46_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="46"/>
+		<ref name="bsdf" id="material_39_material"/>
+	</shape>
+
+	<shape id="Wall#0_1_2_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="47"/>
+		<ref name="bsdf" id="material_41_material"/>
+	</shape>
+
+	<shape id="main_48_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="48"/>
+		<ref name="bsdf" id="material_42_material"/>
+	</shape>
+
+	<shape id="main_49_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="49"/>
+		<ref name="bsdf" id="material_43_material"/>
+	</shape>
+
+	<shape id="main_50_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="50"/>
+		<ref name="bsdf" id="material_42_material"/>
+	</shape>
+
+	<shape id="Wall#0_1_3_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="51"/>
+		<ref name="bsdf" id="material_44_material"/>
+	</shape>
+
+	<shape id="main_52_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="52"/>
+		<ref name="bsdf" id="material_45_material"/>
+	</shape>
+
+	<shape id="main_53_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="53"/>
+		<ref name="bsdf" id="material_46_material"/>
+	</shape>
+
+	<shape id="main_54_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="54"/>
+		<ref name="bsdf" id="material_45_material"/>
+	</shape>
+
+	<shape id="Wall#0_1_4_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="55"/>
+		<ref name="bsdf" id="material_47_material"/>
+	</shape>
+
+	<shape id="main_56_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="56"/>
+		<ref name="bsdf" id="material_48_material"/>
+	</shape>
+
+	<shape id="main_57_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="57"/>
+		<ref name="bsdf" id="material_49_material"/>
+	</shape>
+
+	<shape id="main_58_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="58"/>
+		<ref name="bsdf" id="material_48_material"/>
+	</shape>
+
+	<shape id="Wall#0_1_5_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="59"/>
+		<ref name="bsdf" id="material_50_material"/>
+	</shape>
+
+	<shape id="main_60_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="60"/>
+		<ref name="bsdf" id="material_51_material"/>
+	</shape>
+
+	<shape id="main_61_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="61"/>
+		<ref name="bsdf" id="material_52_material"/>
+	</shape>
+
+	<shape id="main_62_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="62"/>
+		<ref name="bsdf" id="material_51_material"/>
+	</shape>
+
+	<shape id="Model#209_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="63"/>
+		<ref name="bsdf" id="material_53_material"/>
+	</shape>
+
+	<shape id="main_64_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="64"/>
+		<ref name="bsdf" id="material_54_material"/>
+	</shape>
+
+	<shape id="Model#209_65_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="65"/>
+		<ref name="bsdf" id="material_55_material"/>
+	</shape>
+
+	<shape id="main_66_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="66"/>
+		<ref name="bsdf" id="material_56_material"/>
+	</shape>
+
+	<shape id="Model#122_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="67"/>
+		<ref name="bsdf" id="material_57_material"/>
+	</shape>
+
+	<shape id="main_68_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="68"/>
+		<ref name="bsdf" id="material_58_material"/>
+	</shape>
+
+	<shape id="main_69_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="69"/>
+		<ref name="bsdf" id="material_59_material"/>
+	</shape>
+
+	<shape id="Model#67_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="70"/>
+		<ref name="bsdf" id="material_60_material"/>
+	</shape>
+
+	<shape id="main_71_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="71"/>
+		<ref name="bsdf" id="material_61_material"/>
+	</shape>
+
+	<shape id="Model#67_72_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="72"/>
+		<ref name="bsdf" id="material_62_material"/>
+	</shape>
+
+	<shape id="main_73_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="73"/>
+		<ref name="bsdf" id="material_63_material"/>
+	</shape>
+
+	<shape id="Model#122_74_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="74"/>
+		<ref name="bsdf" id="material_64_material"/>
+	</shape>
+
+	<shape id="main_75_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="75"/>
+		<ref name="bsdf" id="material_65_material"/>
+	</shape>
+
+	<shape id="main_76_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="76"/>
+		<ref name="bsdf" id="material_66_material"/>
+	</shape>
+
+	<shape id="Model#109_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="77"/>
+		<ref name="bsdf" id="material_67_material"/>
+	</shape>
+
+	<shape id="Model#174_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="78"/>
+		<ref name="bsdf" id="material_68_material"/>
+	</shape>
+
+	<shape id="main_79_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="79"/>
+		<ref name="bsdf" id="material_69_material"/>
+	</shape>
+
+	<shape id="main_80_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="80"/>
+		<ref name="bsdf" id="material_70_material"/>
+	</shape>
+
+	<shape id="Model#174_81_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="81"/>
+		<ref name="bsdf" id="material_71_material"/>
+	</shape>
+
+	<shape id="main_82_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="82"/>
+		<ref name="bsdf" id="material_72_material"/>
+	</shape>
+
+	<shape id="main_83_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="83"/>
+		<ref name="bsdf" id="material_73_material"/>
+	</shape>
+
+	<shape id="Model#352_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="84"/>
+		<ref name="bsdf" id="material_74_material"/>
+	</shape>
+
+	<shape id="main_85_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="85"/>
+		<ref name="bsdf" id="material_75_material"/>
+	</shape>
+
+	<shape id="Model#352_86_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="86"/>
+		<ref name="bsdf" id="material_76_material"/>
+	</shape>
+
+	<shape id="main_87_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="87"/>
+		<ref name="bsdf" id="material_77_material"/>
+	</shape>
+
+	<shape id="Model#352_88_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="88"/>
+		<ref name="bsdf" id="material_78_material"/>
+	</shape>
+
+	<shape id="main_89_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="89"/>
+		<ref name="bsdf" id="material_79_material"/>
+	</shape>
+
+	<shape id="Model#478_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="90"/>
+		<ref name="bsdf" id="material_80_material"/>
+	</shape>
+
+	<shape id="main_91_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="91"/>
+		<ref name="bsdf" id="material_81_material"/>
+	</shape>
+
+	<shape id="Model#625_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="92"/>
+		<ref name="bsdf" id="material_82_material"/>
+	</shape>
+
+	<shape id="main_93_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="93"/>
+		<ref name="bsdf" id="material_83_material"/>
+	</shape>
+
+	<shape id="main_94_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="94"/>
+		<ref name="bsdf" id="material_84_material"/>
+	</shape>
+
+	<shape id="main_95_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="95"/>
+		<ref name="bsdf" id="material_85_material"/>
+	</shape>
+
+	<shape id="Model#625_96_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="96"/>
+		<ref name="bsdf" id="material_86_material"/>
+	</shape>
+
+	<shape id="main_97_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="97"/>
+		<ref name="bsdf" id="material_87_material"/>
+	</shape>
+
+	<shape id="main_98_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="98"/>
+		<ref name="bsdf" id="material_88_material"/>
+	</shape>
+
+	<shape id="main_99_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="99"/>
+		<ref name="bsdf" id="material_89_material"/>
+	</shape>
+
+	<shape id="Model#561_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="100"/>
+		<ref name="bsdf" id="material_90_material"/>
+	</shape>
+
+	<shape id="main_101_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="101"/>
+		<ref name="bsdf" id="material_91_material"/>
+	</shape>
+
+	<shape id="Model#122_102_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="102"/>
+		<ref name="bsdf" id="material_92_material"/>
+	</shape>
+
+	<shape id="main_103_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="103"/>
+		<ref name="bsdf" id="material_93_material"/>
+	</shape>
+
+	<shape id="main_104_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="104"/>
+		<ref name="bsdf" id="material_94_material"/>
+	</shape>
+
+	<shape id="Model#656_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="105"/>
+		<ref name="bsdf" id="material_95_material"/>
+	</shape>
+
+	<shape id="main_106_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="106"/>
+		<ref name="bsdf" id="material_96_material"/>
+	</shape>
+
+	<shape id="Room#0_2_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="107"/>
+		<ref name="bsdf" id="material_97_material"/>
+	</shape>
+
+	<shape id="main_108_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="108"/>
+		<ref name="bsdf" id="material_98_material"/>
+	</shape>
+
+	<shape id="Wall#0_2_0_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="109"/>
+		<ref name="bsdf" id="material_99_material"/>
+	</shape>
+
+	<shape id="main_110_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="110"/>
+		<ref name="bsdf" id="material_100_material"/>
+	</shape>
+
+	<shape id="main_111_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="111"/>
+		<ref name="bsdf" id="material_101_material"/>
+	</shape>
+
+	<shape id="main_112_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="112"/>
+		<ref name="bsdf" id="material_100_material"/>
+	</shape>
+
+	<shape id="Wall#0_2_1_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="113"/>
+		<ref name="bsdf" id="material_102_material"/>
+	</shape>
+
+	<shape id="main_114_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="114"/>
+		<ref name="bsdf" id="material_103_material"/>
+	</shape>
+
+	<shape id="main_115_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="115"/>
+		<ref name="bsdf" id="material_104_material"/>
+	</shape>
+
+	<shape id="main_116_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="116"/>
+		<ref name="bsdf" id="material_103_material"/>
+	</shape>
+
+	<shape id="Wall#0_2_2_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="117"/>
+		<ref name="bsdf" id="material_105_material"/>
+	</shape>
+
+	<shape id="main_118_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="118"/>
+		<ref name="bsdf" id="material_106_material"/>
+	</shape>
+
+	<shape id="main_119_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="119"/>
+		<ref name="bsdf" id="material_107_material"/>
+	</shape>
+
+	<shape id="main_120_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="120"/>
+		<ref name="bsdf" id="material_106_material"/>
+	</shape>
+
+	<shape id="Wall#0_2_3_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="121"/>
+		<ref name="bsdf" id="material_108_material"/>
+	</shape>
+
+	<shape id="main_122_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="122"/>
+		<ref name="bsdf" id="material_109_material"/>
+	</shape>
+
+	<shape id="main_123_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="123"/>
+		<ref name="bsdf" id="material_110_material"/>
+	</shape>
+
+	<shape id="main_124_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="124"/>
+		<ref name="bsdf" id="material_109_material"/>
+	</shape>
+
+	<shape id="Model#209_125_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="125"/>
+		<ref name="bsdf" id="material_111_material"/>
+	</shape>
+
+	<shape id="main_126_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="126"/>
+		<ref name="bsdf" id="material_112_material"/>
+	</shape>
+
+	<shape id="Model#209_127_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="127"/>
+		<ref name="bsdf" id="material_113_material"/>
+	</shape>
+
+	<shape id="main_128_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="128"/>
+		<ref name="bsdf" id="material_114_material"/>
+	</shape>
+
+	<shape id="Model#502_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="129"/>
+		<ref name="bsdf" id="material_115_material"/>
+	</shape>
+
+	<shape id="main_130_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="130"/>
+		<ref name="bsdf" id="material_116_material"/>
+	</shape>
+
+	<shape id="main_131_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="131"/>
+		<ref name="bsdf" id="material_117_material"/>
+	</shape>
+
+	<shape id="Model#122_132_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="132"/>
+		<ref name="bsdf" id="material_118_material"/>
+	</shape>
+
+	<shape id="main_133_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="133"/>
+		<ref name="bsdf" id="material_119_material"/>
+	</shape>
+
+	<shape id="main_134_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="134"/>
+		<ref name="bsdf" id="material_120_material"/>
+	</shape>
+
+	<shape id="Model#274_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="135"/>
+		<ref name="bsdf" id="material_121_material"/>
+	</shape>
+
+	<shape id="main_136_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="136"/>
+		<ref name="bsdf" id="material_122_material"/>
+	</shape>
+
+	<shape id="main_137_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="137"/>
+		<ref name="bsdf" id="material_123_material"/>
+	</shape>
+
+	<shape id="Model#203_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="138"/>
+		<ref name="bsdf" id="material_124_material"/>
+	</shape>
+
+	<shape id="main_139_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="139"/>
+		<ref name="bsdf" id="material_125_material"/>
+	</shape>
+
+	<shape id="main_140_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="140"/>
+		<ref name="bsdf" id="material_126_material"/>
+	</shape>
+
+	<shape id="Model#456_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="141"/>
+		<ref name="bsdf" id="material_127_material"/>
+	</shape>
+
+	<shape id="Model#456_142_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="142"/>
+		<ref name="bsdf" id="material_128_material"/>
+	</shape>
+
+	<shape id="Model#77_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="143"/>
+		<ref name="bsdf" id="material_129_material"/>
+	</shape>
+
+	<shape id="main_144_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="144"/>
+		<ref name="bsdf" id="material_130_material"/>
+	</shape>
+
+	<shape id="main_145_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="145"/>
+		<ref name="bsdf" id="material_131_material"/>
+	</shape>
+
+	<shape id="main_146_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="146"/>
+		<ref name="bsdf" id="material_132_material"/>
+	</shape>
+
+	<shape id="Model#441_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="147"/>
+		<ref name="bsdf" id="material_133_material"/>
+	</shape>
+
+	<shape id="main_148_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="148"/>
+		<ref name="bsdf" id="material_134_material"/>
+	</shape>
+
+	<shape id="main_149_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="149"/>
+		<ref name="bsdf" id="material_135_material"/>
+	</shape>
+
+	<shape id="Model#261_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="150"/>
+		<ref name="bsdf" id="material_136_material"/>
+	</shape>
+
+	<shape id="main_151_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="151"/>
+		<ref name="bsdf" id="material_137_material"/>
+	</shape>
+
+	<shape id="Room#0_3_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="152"/>
+		<ref name="bsdf" id="material_138_material"/>
+	</shape>
+
+	<shape id="main_153_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="153"/>
+		<ref name="bsdf" id="material_139_material"/>
+	</shape>
+
+	<shape id="Wall#0_3_0_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="154"/>
+		<ref name="bsdf" id="material_140_material"/>
+	</shape>
+
+	<shape id="main_155_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="155"/>
+		<ref name="bsdf" id="material_141_material"/>
+	</shape>
+
+	<shape id="main_156_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="156"/>
+		<ref name="bsdf" id="material_142_material"/>
+	</shape>
+
+	<shape id="main_157_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="157"/>
+		<ref name="bsdf" id="material_141_material"/>
+	</shape>
+
+	<shape id="Wall#0_3_1_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="158"/>
+		<ref name="bsdf" id="material_143_material"/>
+	</shape>
+
+	<shape id="main_159_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="159"/>
+		<ref name="bsdf" id="material_144_material"/>
+	</shape>
+
+	<shape id="main_160_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="160"/>
+		<ref name="bsdf" id="material_145_material"/>
+	</shape>
+
+	<shape id="main_161_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="161"/>
+		<ref name="bsdf" id="material_144_material"/>
+	</shape>
+
+	<shape id="Wall#0_3_2_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="162"/>
+		<ref name="bsdf" id="material_146_material"/>
+	</shape>
+
+	<shape id="main_163_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="163"/>
+		<ref name="bsdf" id="material_147_material"/>
+	</shape>
+
+	<shape id="main_164_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="164"/>
+		<ref name="bsdf" id="material_148_material"/>
+	</shape>
+
+	<shape id="main_165_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="165"/>
+		<ref name="bsdf" id="material_147_material"/>
+	</shape>
+
+	<shape id="Wall#0_3_3_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="166"/>
+		<ref name="bsdf" id="material_149_material"/>
+	</shape>
+
+	<shape id="main_167_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="167"/>
+		<ref name="bsdf" id="material_150_material"/>
+	</shape>
+
+	<shape id="main_168_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="168"/>
+		<ref name="bsdf" id="material_151_material"/>
+	</shape>
+
+	<shape id="main_169_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="169"/>
+		<ref name="bsdf" id="material_150_material"/>
+	</shape>
+
+	<shape id="Wall#0_3_4_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="170"/>
+		<ref name="bsdf" id="material_152_material"/>
+	</shape>
+
+	<shape id="main_171_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="171"/>
+		<ref name="bsdf" id="material_153_material"/>
+	</shape>
+
+	<shape id="main_172_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="172"/>
+		<ref name="bsdf" id="material_154_material"/>
+	</shape>
+
+	<shape id="main_173_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="173"/>
+		<ref name="bsdf" id="material_153_material"/>
+	</shape>
+
+	<shape id="Wall#0_3_5_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="174"/>
+		<ref name="bsdf" id="material_155_material"/>
+	</shape>
+
+	<shape id="main_175_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="175"/>
+		<ref name="bsdf" id="material_156_material"/>
+	</shape>
+
+	<shape id="main_176_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="176"/>
+		<ref name="bsdf" id="material_157_material"/>
+	</shape>
+
+	<shape id="main_177_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="177"/>
+		<ref name="bsdf" id="material_156_material"/>
+	</shape>
+
+	<shape id="Model#210_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="178"/>
+		<ref name="bsdf" id="material_158_material"/>
+	</shape>
+
+	<shape id="main_179_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="179"/>
+		<ref name="bsdf" id="material_159_material"/>
+	</shape>
+
+	<shape id="Model#126_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="180"/>
+		<ref name="bsdf" id="material_160_material"/>
+	</shape>
+
+	<shape id="main_181_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="181"/>
+		<ref name="bsdf" id="material_161_material"/>
+	</shape>
+
+	<shape id="Model#122_182_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="182"/>
+		<ref name="bsdf" id="material_162_material"/>
+	</shape>
+
+	<shape id="main_183_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="183"/>
+		<ref name="bsdf" id="material_163_material"/>
+	</shape>
+
+	<shape id="main_184_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="184"/>
+		<ref name="bsdf" id="material_164_material"/>
+	</shape>
+
+	<shape id="Model#365_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="185"/>
+		<ref name="bsdf" id="material_165_material"/>
+	</shape>
+
+	<shape id="Model#365_186_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="186"/>
+		<ref name="bsdf" id="material_166_material"/>
+	</shape>
+
+	<shape id="Model#135_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="187"/>
+		<ref name="bsdf" id="material_167_material"/>
+	</shape>
+
+	<shape id="main_188_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="188"/>
+		<ref name="bsdf" id="material_168_material"/>
+	</shape>
+
+	<shape id="main_189_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="189"/>
+		<ref name="bsdf" id="material_169_material"/>
+	</shape>
+
+	<shape id="main_190_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="190"/>
+		<ref name="bsdf" id="material_170_material"/>
+	</shape>
+
+	<shape id="main_191_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="191"/>
+		<ref name="bsdf" id="material_171_material"/>
+	</shape>
+
+	<shape id="main_192_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="192"/>
+		<ref name="bsdf" id="material_172_material"/>
+	</shape>
+
+	<shape id="main_193_mesh" type="serialized">
+		<string name="filename" value="main.serialized"/>
+		<integer name="shapeIndex" value="193"/>
+		<bsdf type="diffuse"/>
+	</shape>
+
+</scene>

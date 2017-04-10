@@ -1,3 +1,4 @@
+config;
 serial_path = [output_path 'projects_serialize/'];
 camera_path = [output_path 'projects_camera/'];
 render_path = [output_path 'projects_render/'];
@@ -30,7 +31,7 @@ xfov_half    = 0.5534;
 
 % mitsuba_path = 'mitsuba';
 dependency = 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH';
-number_job = 1000;
+number_job = 1;
 command_path = [script_path '/cmd_mtsb_render/'];
 mkdir(command_path);
 allfp = cell(number_job,1);
@@ -49,6 +50,7 @@ for a = 1:length(projects_list)
     
     dst_result_path = [render_path projects_list{a} '/'];
     fileid = rem(a,number_job) + 1;
+    fprintf(allfp{fileid}, 'cd %s\n', root_path);
     fprintf(allfp{fileid}, 'python %s -s %s -c %s -o %s -g %s\n', ...
         python_render_path, main_tmp_color_path, dst_cam_path, dst_result_path, dst_camgood_path);
     fprintf(allfp{fileid}, 'cd %s\n', [render_path projects_list{a}]);

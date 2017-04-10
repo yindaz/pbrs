@@ -57,8 +57,8 @@ def main(argv):
 	paramMap['sampler'] = '1024'
 	paramMap['width'] = '640'
 	paramMap['height'] = '480'
-	paramMap['envmap_path'] = 'Path_to_HDR_111_Parking_Lot_2_Ref.hdr'
-	paramMap['default_texture_path'] = 'Path_to_wallp_0.jpg'
+	paramMap['envmap_path'] = './util_data/HDR_111_Parking_Lot_2_Ref.hdr'
+	paramMap['default_texture_path'] = './util_data/wallp_0.jpg'
 
 	fileResolver = Thread.getThread().getFileResolver()
 	scene = SceneHandler.loadScene(fileResolver.resolve(scene_xml_name), paramMap)

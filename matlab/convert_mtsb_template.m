@@ -1,5 +1,5 @@
 function convert_mtsb_template( id )
-
+config;
 addpath('xmlModify');
 serial_path = [output_path '/projects_serialize/'];
 
@@ -34,7 +34,7 @@ end
 
 
 for a = 1:length(projects_list)
-    if rem(a,100)+1 == id
+    if rem(a,1)+1 == id
         fprintf('%d: %s\n', a, projects_list{a});
         
         main_mtl_path = [serial_path projects_list{a} '/' projects_list{a} '.mtl'];
@@ -50,7 +50,7 @@ for a = 1:length(projects_list)
         % convert material two be two-sided
         xDoc = modifyTwosidedMaterial(xDoc);
         % set transparent material
-        xDoc = modifyTransparentMaterialA(main_mtl_path, xDoc, pure_trans_id);
+        xDoc = modifyTransparentMaterial(main_mtl_path, xDoc, pure_trans_id);
         % set emissive for light bulb and shade
         xDoc = modifyLightSource(main_mtl_path, light_geometry_compact, xDoc);
         % remove geometries 
