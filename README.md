@@ -20,7 +20,7 @@ If you use any part of the code or generated data, please cite the following pap
 
 To fully reproduce the data, you need several softwares and datasets listed below. Please check the links for their latest updates. We include a copy of them for consistency issue.
 - [SUNCG Dataset](http://suncg.cs.princeton.edu). It provides the raw scene models required to render data from. These raw data grant you more flexibility to interact with the scene. You need to sign this [agreement form](http://suncg.cs.princeton.edu/form.pdf) in order to get full access of the dataset.
-- [Gaps](https://github.com/tomfunkhouser/gaps). The C++ parser for SUNCG dataset. It provides apps to generate camera viewpoints, scene obj models, and produce a variety of ground truth.
+- [Gaps](https://github.com/shurans/SUNCGtoolbox/tree/master/gaps). The C++ parser for SUNCG dataset. It provides apps to generate camera viewpoints, scene obj models, and produce a variety of ground truth.
 - [Mitsuba](http://www.mitsuba-renderer.org/). The physically based rendering engine.
 
 These dependencies are all fairly easy to download and install. Alternatively, we provide you precomputed camera viewpoints and the fixed OBJ models and the serialized files ready for rendering.
