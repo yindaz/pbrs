@@ -101,7 +101,7 @@ mtsutil tonemap -p 0.8,0.2 *.rgbe
 We use Gaps to generate ground truth. 
 ```
 cd ./planner5d/house/[project_id]/
-./gaps/bin/x86_64/scn2cam house.json ./projects_camera/[project_id]/room_camera.txt ./projects_render/[project_id]/ -categories ./util_data/ModelCategoryMappingNewActive.csv -capture_color_images -capture_depth_images -capture_normal_images -capture_node_images -width 640 -height 480 -headlight -mesa
+./gaps/bin/x86_64/scn2img house.json ./projects_camera/[project_id]/room_camera.txt ./projects_render/[project_id]/ -categories ./util_data/ModelCategoryMappingNewActive.csv -capture_color_images -capture_depth_images -capture_normal_images -capture_node_images -width 640 -height 480 -headlight -mesa
 ```
 
 This command will generate:
